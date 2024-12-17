@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Spacing Utilities</title>
+  <link 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <style>
+    .box {
+      background-color: lightgray;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h3>Margin Examples</h3>
+    <div class="box m-0 p-2">m-0 (No margin)</div>
+    <div class="box m-1 p-2 mt-2">m-1 (4px margin)</div>
+    <div class="box m-2 p-2 mt-2">m-2 (8px margin)</div>
+    <div class="box m-3 p-2 mt-2">m-3 (16px margin)</div>
+    <div class="box m-4 p-2 mt-2">m-4 (24px margin)</div>
+    <div class="box m-5 p-2 mt-2">m-5 (48px margin)</div>
+    <h4 class="mt-4">Margin Top & Bottom</h4>
+    <div class="box mt-3 mb-3 p-2">mt-3 & mb-3</div>
+    <div class="box mt-4 mb-4 p-2">mt-4 & mb-4</div>
+    <h4 class="mt-4">Margin Start & End</h4>
+    <div class="box ms-3 me-3 p-2">ms-3 (start) & me-3 (end)</div>
+    <div class="box ms-5 me-5 p-2">ms-5 (start) & me-5 (end)</div>
+    <h4 class="mt-4">Auto Margin</h4>
+    <div class="box mx-auto p-2" style="width: 200px;">mx-auto (center horizontally)</div>
+    <hr>
+    <h3 class="mt-5">Padding Examples</h3>
+    <div class="box p-0 mb-2">p-0 (No padding)</div>
+    <div class="box p-1 mb-2">p-1 (4px padding)</div>
+    <div class="box p-2 mb-2">p-2 (8px padding)</div>
+    <div class="box p-3 mb-2">p-3 (16px padding)</div>
+    <div class="box p-4 mb-2">p-4 (24px padding)</div>
+    <div class="box p-5 mb-2">p-5 (48px padding)</div>
+    <h4 class="mt-4">Padding Top & Bottom</h4>
+    <div class="box pt-3 pb-3 mb-2">pt-3 & pb-3</div>
+    <div class="box pt-4 pb-4 mb-2">pt-4 & pb-4</div>
+    <h4 class="mt-4">Padding Start & End</h4>
+    <div class="box ps-3 pe-3 mb-2">ps-3 (start) & pe-3 (end)</div>
+    <div class="box ps-5 pe-5 mb-2">ps-5 (start) & pe-5 (end)</div>
+    <h4 class="mt-4">Responsive Padding & Margin</h4>
+    <div class="box p-2 m-2 mb-md-5 pb-lg-5">Responsive Spacing (p-2, mb-md-5, pb-lg-5)</div>
+  </div>
+  <script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
